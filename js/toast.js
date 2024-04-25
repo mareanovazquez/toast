@@ -1,4 +1,7 @@
-document.getElementById('triggerToast').addEventListener('click', function () {
+
+let triggerToast = document.getElementById('triggerToast');
+
+triggerToast.addEventListener('click', function () {
     let toast = document.getElementById('toast');
     toast.classList.add('visible');
 
@@ -9,9 +12,9 @@ document.getElementById('triggerToast').addEventListener('click', function () {
 })
 
 
+let triggerToast2 = document.getElementById('triggerToast2');
 
-
-document.getElementById('triggerToast2').addEventListener('click', function () {
+triggerToast2.addEventListener('click', function () {
     let toast2 = document.getElementById('toast2');
     let barToast2 = document.getElementById('barToast2');
 

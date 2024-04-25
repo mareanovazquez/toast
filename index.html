@@ -4,21 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Toast</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <button id="triggerToast">Mostrar Toast</button>
+    <button id="triggerToast">Toast</button>
 
     <button id="triggerToast2">Toast 2</button>
 
     <div id="toast" class="toast">
-        <span>Este es un mensaje de toast.</span>
+        <div class="messageToast">Este es un mensaje de toast.</div>
     </div>
 
     <div id="toast2" class="toast2">
-        <div>Este es un mensaje de toast.</div>
+        <div class="messageToast2">Este es un mensaje de toast.</div>
         <div class="barToast2" id="barToast2"></div>
     </div>
     <script src="./js/toast.js"></script>
